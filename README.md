@@ -40,7 +40,7 @@
 Clone the Repository
 
 ```sh
-git clone https://github.com/kadekwira/sistem_informasi_ps_kekal.git
+git clone https://github.com/TrainerFS1/Bootstrap-dan-SASS-Mini-Project-Kelompok-1.git
 ```
 
 Switch to the repo folder
