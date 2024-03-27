@@ -1,0 +1,225 @@
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }  body {
+    background-color:black
+    }
+
+
+    @media (max-width:991.98px) {
+    .padding {
+    padding: 1.5rem
+    }
+    }
+
+    @media (max-width:767.98px) {
+    .padding {
+    padding: 1rem
+    }
+    }
+
+    .padding {
+    padding: 5rem
+    }
+
+    .card {
+    text-align: center;
+    position: relative;
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #d2d2dc;
+    border-radius: 11px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(212,182,212,1);
+    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
+    }
+
+    .card .card-body {
+    padding: 1rem 1rem;
+    }
+
+    .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 auto;
+    padding: 1.25rem
+    }
+
+    p {
+    font-size: 0.875rem;
+    margin-bottom: .5rem;
+    line-height: 1.5rem
+    }
+
+    h4{
+    line-height: .2 !important;
+    }
+ 
+    h1.tites {
+        font-weight: bold;
+        text-align: center;
+        padding-top: 50px;
+        color: aliceblue;
+      }
+
+    h5.card-title{
+        font-weight: bold;
+    }
+
+    .items {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 100px
+    }
+
+    .slick-slide {
+    margin: 10px
+    }
+
+
+    .media iframe,
+    .media-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 0;
+    border-radius: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: rgba(120, 120, 120, .1);
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+    }
+
+    .media-content:before {
+    content: '';
+    position: absolute;
+    height: 10%;
+    width: 90%;
+    left: 5%;
+    bottom: 0;
+    background: inherit;
+    background-position-y: 100%;
+    filter: blur(10px)
+    }
+
+    .circle .media-content:before {
+    width: 40%;
+    left: 30%
+    }
+
+    .profile-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%; 
+        margin-bottom: 10px; 
+        object-fit: cover; 
+
+    }
+
+    .card-title{
+    font-size: 19px;
+    font-weight: 200;
+    }
+
+    h1.tites {
+        font-weight: bold;
+        text-align: center;
+        padding-top: 50px;
+        color: aliceblue;
+      }
+
+    h5.card-title{
+        font-weight: bold;
+    }
+
+    .items {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 100px
+    }
+
+    .slick-slide {
+    margin: 10px
+    }
+
+
+    .media iframe,
+    .media-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 0;
+    border-radius: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: rgba(120, 120, 120, .1);
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+    }
+
+    .media-content:before {
+    content: '';
+    position: absolute;
+    height: 10%;
+    width: 90%;
+    left: 5%;
+    bottom: 0;
+    background: inherit;
+    background-position-y: 100%;
+    filter: blur(10px)
+    }
+
+    .circle .media-content:before {
+    width: 40%;
+    left: 30%
+    }
+
+    .profile-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%; 
+        margin-bottom: 10px; 
+        object-fit: cover; 
+
+    }
+
+    .card-title{
+    font-size: 19px;
+    font-weight: 200;
+    }
