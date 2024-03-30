@@ -29,10 +29,10 @@
               <a class="nav-link" href="about.html">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Product</a>
+              <a class="nav-link" href="#product-section">Product</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Review</a>
+              <a class="nav-link" href="#review-section">Review</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact Us</a>
@@ -65,9 +65,80 @@
       </div>
     </div>
 
+    <!-- section product -->
+    <div class="product" id="product-section">
+      <h1 class="tites" style="color: black;">PRODUCT</h1>
+      <div class="foto-produk">
+        <div class="card col-lg-2 col-md-6 col-sm-12">
+          <div class="card-body">
+            <img src="produk/p1.jpeg" class="foto" alt="produk1" data-toggle="modal" data-target="#modal1">
+          </div>
+        </div>
+        <div class="card col-lg-2 col-md-6 col-sm-12">
+          <div class="card-body">
+            <img src="produk/p2.jpeg" class="foto" alt="produk2" data-toggle="modal" data-target="#modal2">
+          </div>
+        </div>
+        <div class="card col-lg-6 col-md-6 col-sm-12">
+          <div class="card-body">
+            <img src="produk/p3.jpeg" class="foto" alt="produk3" data-toggle="modal" data-target="#modal3">
+          </div>
+        </div>
+        <div class="card col-lg-2 col-md-6 col-sm-12">
+          <div class="card-body">
+            <img src="produk/p1.jpeg" class="foto" alt="produk1" data-toggle="modal" data-target="#modal1">
+          </div>
+        </div>
+        <div class="card col-lg-2 col-md-6 col-sm-12">
+          <div class="card-body">
+            <img src="produk/p2.jpeg" class="foto" alt="produk2" data-toggle="modal" data-target="#modal2">
+          </div>
+        </div>
+        <div class="card col-lg-6 col-md-6 col-sm-12">
+          <div class="card-body">
+            <img src="produk/p3.jpeg" class="foto" alt="produk3" data-toggle="modal" data-target="#modal3">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 1 -->
+      <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-body">
+              <img src="produk/p1.jpeg" class="img-fluid" alt="produk1">
+              </div>
+          </div>
+          </div>
+      </div>
+      
+      <!-- Modal 2 -->
+      <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2Label" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-body">
+              <img src="produk/p2.jpeg" class="img-fluid" alt="produk2">
+              </div>
+          </div>
+          </div>
+      </div>
+      
+      <!-- Modal 3 -->
+      <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3Label" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-body">
+              <img src="produk/p3.jpeg" class="img-fluid" alt="produk3">
+              </div>
+          </div>
+          </div>
+      </div>
+      <!-- end of section product -->
+
     <!-- testimoni -->
     <h1 class="tites">TESTIMONI</h1>
-    <div class="snippet-body" style="padding-bottom: 50px;">
+    <div class="snippet-body" style="padding-bottom: 50px;" id="review-section">
         <div class="items">
             <div class="card">
                 
@@ -126,6 +197,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="js/testimoni.js"></script>
   </body>
 </html>
