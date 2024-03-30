@@ -223,3 +223,34 @@
     font-size: 19px;
     font-weight: 200;
     }
+
+    .product {
+      background-color: rgb(255, 255, 255);
+    }
+    
+    .foto-produk {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; 
+      justify-content: center;
+      padding-top: 40px;
+      padding-bottom: 80px;
+    }
+    
+    
+    .foto-produk .card {
+      width: 20rem;
+      text-align: center;
+      margin-right: 20px;
+      margin-bottom: 20px; 
+      margin-left: 20px;
+      border: 1px solid black;
+    }
+    
+    .card-body .foto {
+      max-width: 100%; 
+      height: auto; 
+      max-width: 208px; 
+      max-height: 294px;
+    }
+    
