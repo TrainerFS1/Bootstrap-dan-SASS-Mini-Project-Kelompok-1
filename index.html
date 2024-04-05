@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>UMKM Roeang Studio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
@@ -15,17 +15,17 @@
     <script type="module" src="./js/script.js"></script>
   </head>
   <body>
-    <!-- nav diganti ke bg info dlu ya menyesuaikan.. klo emng ragu nnti ganti aja-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" >
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div class="container">
         <a class="navbar-brand" href="#home">
-          <img src="./images/favicon.png" alt="" width="100" height="25" />
+          <img src="./images/favicon.png" alt="Logo" width="100" height="25" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
@@ -46,93 +46,73 @@
       </div>
     </nav>
 
-    <div class="container-fluid g-0" id="home">
+    <!-- nav -->
+
+    <div class="container-fluid p-0" id="home">
       <div id="carouselExampleControls" class="carousel slide position-relative" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/Profile1.jpeg" class="d-block w-100" alt="..." height="700px" style="object-fit: cover" />
+            <img src="images/Profile1.jpeg" class="d-block w-100" alt="Profile 1" style="object-fit: cover; height: 700px" />
           </div>
           <div class="carousel-item">
-            <img src="images/Profile2.jpeg" class="d-block w-100" alt="..." height="700px" style="object-fit: cover" />
+            <img src="images/Profile2.jpeg" class="d-block w-100" alt="Profile 2" style="object-fit: cover; height: 700px" />
           </div>
           <div class="carousel-item">
-            <img src="images/Profile3.jpeg" class="d-block w-100" alt="..." height="700px" style="object-fit: cover" />
+            <img src="images/Profile3.jpeg" class="d-block w-100" alt="Profile 3" style="object-fit: cover; height: 700px" />
           </div>
         </div>
         <button class="btn btn-outline-dark button position-absolute btn-ourProduct">Our Product</button>
-        <h1 class="position-absolute title">
-          FEEL
-          <br />
-          BETTER
-        </h1>
+
         <div class="d-flex align-items-center gap-3 position-absolute" id="img-small">
-          <img src="images/Profile1.jpeg" alt="..." height="100px" style="object-fit: cover" />
-          <img src="images/Profile2.jpeg" alt="..." height="100px" style="object-fit: cover" />
-          <img src="images/Profile3.jpeg" alt="..." height="100px" style="object-fit: cover" />
+          <img src="images/Profile1.jpeg" alt="Profile 1" height="100" style="object-fit: cover" />
+          <img src="images/Profile2.jpeg" alt="Profile 2" height="100" style="object-fit: cover" />
+          <img src="images/Profile3.jpeg" alt="Profile 3" height="100" style="object-fit: cover" />
         </div>
       </div>
     </div>
 
     <!-- about -->
     <div class="container py-4" id="about">
-      <div id="text-slider" class="d-flex gap-5 justify-content-center mt-5">
-        <p class="text-light fw-semibold fs-5">ROEANG STUDIO</p>
-        <p class="text-light fw-semibold fs-5">ROEANG STUDIO</p>
-        <p class="text-light fw-semibold fs-5">ROEANG STUDIO</p>
+      <div class="d-flex gap-5 justify-content-center mt-5">
         <p class="text-light fw-semibold fs-5">ROEANG STUDIO</p>
         <p class="text-light fw-semibold fs-5">ROEANG STUDIO</p>
         <p class="text-light fw-semibold fs-5">ROEANG STUDIO</p>
       </div>
       <section class="d-flex flex-column justify-content-center align-items-center gap-5">
         <h1 class="text-center text-light lh-lg fw-bolder" style="font-size: 50px; margin-top: 100px">ROEANG STUDIO</h1>
-        <p class="text-light text-center w-50 fs-6">
+        <p class="text-light text-center w-75 fs-6">
           Selamat datang di Roeang Studio, mitra terpercaya Anda dalam dunia konveksi yang berkualitas tinggi. Didirikan pada tahun 2024, kami telah memberikan solusi pakaian berkualitas tinggi kepada pelanggan dari berbagai industri.
           Dengan fokus pada inovasi, keunggulan, dan kepuasan pelanggan, kami telah tumbuh menjadi salah satu pemimpin di industri konveksi di Indonesia.
         </p>
         <h5 class="text-light text-center">100% TRUSTED</h5>
       </section>
-      <div id="text-slider" class="d-flex gap-5 justify-content-center mb-5 mt-5">
-        <p class="text-light fw-semibold fs-5">ROEANG STUDIO</p>
-        <p class="text-light fw-semibold fs-5">ROEANG STUDIO</p>
-        <p class="text-light fw-semibold fs-5">ROEANG STUDIO</p>
+      <div class="d-flex gap-5 justify-content-center mb-5 mt-5">
         <p class="text-light fw-semibold fs-5">ROEANG STUDIO</p>
         <p class="text-light fw-semibold fs-5">ROEANG STUDIO</p>
         <p class="text-light fw-semibold fs-5">ROEANG STUDIO</p>
       </div>
     </div>
-    <!-- end About -->
-    <!-- section product -->
+    <!-- end about -->
+
+    <!-- Section Product -->
     <div class="product" id="product-section">
       <h1 class="text-dark text-center fw-bolder" style="padding-top: 50px">PRODUCT</h1>
-      <div class="foto-produk">
-        <div class="card col-lg-2 col-md-6 col-sm-12">
-          <div class="card-body">
-            <img src="./images/Profile1.jpeg" class="foto" alt="produk1" data-toggle="modal" data-target="#modal1" />
+      <div class="foto-produk container">
+        <div class="row">
+          <div class="card col-lg-4 col-md-6 col-sm-12">
+            <div class="card-body">
+              <img src="./images/product1.jpeg" class="foto" alt="produk1" data-toggle="modal" data-target="#modal1" />
+            </div>
           </div>
-        </div>
-        <div class="card col-lg-2 col-md-6 col-sm-12">
-          <div class="card-body">
-            <img src="./images/Profile2.jpeg" class="foto" alt="produk2" data-toggle="modal" data-target="#modal2" />
+          <div class="card col-lg-4 col-md-6 col-sm-12">
+            <div class="card-body">
+              <img src="./images/product2.jpeg" class="foto" alt="produk2" data-toggle="modal" data-target="#modal2" />
+            </div>
           </div>
-        </div>
-        <div class="card col-lg-6 col-md-6 col-sm-12">
-          <div class="card-body">
-            <img src="./images/Profile3.jpeg" class="foto" alt="produk3" data-toggle="modal" data-target="#modal3" />
-          </div>
-        </div>
-        <div class="card col-lg-2 col-md-6 col-sm-12">
-          <div class="card-body">
-            <img src="./images/Profile1.jpeg" class="foto" alt="produk1" data-toggle="modal" data-target="#modal1" />
-          </div>
-        </div>
-        <div class="card col-lg-2 col-md-6 col-sm-12">
-          <div class="card-body">
-            <img src="./images/Profile2.jpeg" class="foto" alt="produk2" data-toggle="modal" data-target="#modal2" />
-          </div>
-        </div>
-        <div class="card col-lg-6 col-md-6 col-sm-12">
-          <div class="card-body">
-            <img src="./images/Profile3.jpeg" class="foto" alt="produk3" data-toggle="modal" data-target="#modal3" />
+          <div class="card col-lg-4 col-md-6 col-sm-12">
+            <div class="card-body">
+              <img src="./images/product3.jpeg" class="foto" alt="produk3" data-toggle="modal" data-target="#modal3" />
+            </div>
           </div>
         </div>
       </div>
@@ -143,7 +123,7 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-body">
-            <img src="./images/Profile1.jpeg" class="img-fluid" alt="produk1" />
+            <img src="./images/product1.jpeg" class="img-fluid" alt="produk1" />
           </div>
         </div>
       </div>
@@ -154,7 +134,7 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-body">
-            <img src="./images/Profile2.jpeg" class="img-fluid" alt="produk2" />
+            <img src="./images/product2.jpeg" class="img-fluid" alt="produk2" />
           </div>
         </div>
       </div>
@@ -165,19 +145,19 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-body">
-            <img src="./images/Profile3.jpeg" class="img-fluid" alt="produk3" />
+            <img src="./images/product3.jpeg" class="img-fluid" alt="produk3" />
           </div>
         </div>
       </div>
     </div>
-    <!-- end of section product -->
+    <!-- End of Section Product -->
 
     <!-- Keunggulan -->
     <div class="container py-4" id="keunggulan">
-      <div class="d-flex justify-content-between align-items-center gap-3">
-        <div class="d-flex flex-column gap-2">
+      <div class="d-md-flex justify-content-between align-items-center gap-3">
+        <div class="flex-md-grow-1">
           <h1 class="text-center text-light lh-lg fw-bolder">KEUNGGULAN</h1>
-          <ol class="text-light d-flex flex-column gap-4">
+          <ol class="text-light gap-4">
             <li>
               <span class="fw-semibold">Kualitas Tinggi</span>
               : Kami memastikan bahwa setiap produk yang keluar dari pabrik kami memenuhi standar kualitas yang ketat. Kami menggunakan bahan-bahan berkualitas tinggi dan teknologi produksi terkini untuk memastikan kepuasan pelanggan.
@@ -196,10 +176,12 @@
             </li>
           </ol>
         </div>
-        <img src="./images/Profile3_nobg.png" alt="foto" width="500" height="500" />
+        <div class="text-center mt-4 mt-md-0">
+          <img src="./images/Profile3_nobg.png" alt="foto" width="250" height="250" />
+        </div>
       </div>
     </div>
-    <!-- end Keunggulan -->
+    <!-- End Keunggulan -->
 
     <!-- testimoni -->
 
@@ -248,7 +230,8 @@
               <img
                 src="https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D"
                 class="profile-img"
-                alt="Profile Picture" />
+                alt="Profile Picture"
+              />
               <h5 class="card-title">Danny Olson</h5>
               <h6 class="card-subtitle mb-2 text-muted">Customer</h6>
               <p class="card-text">
@@ -273,50 +256,64 @@
       </div>
     </div>
     <!-- end of testimoni -->
+
     <div class="alert d-none">
       <div class="isi"><strong>Pesan Berhasil Terkirim!</strong> Terima Kasih sudah mengirim pesan</div>
       <i class="fa-solid fa-xmark x"></i>
     </div>
-    <h2 class="text-center text-light fw-bolder mt-5" style="margin-bottom: 100px">CONTACT US</h2>
-    <div class="container mt-5" id="contact">
-      <div class="contact-form row g-5">
-        <form class="col-md-8"  name="submit-to-google-sheet">
-          <h4 class="fw-semibold">Get in touch</h4>
-          <div class="mb-3 row">
-            <div class="col">
-              <label for="name" class="form-label"></label>
-              <input type="text" class="form-control" name="nama" id="name" placeholder="Name" />
-            </div>
-            <div class="col">
-              <label for="email" class="form-label"></label>
-              <input type="email" class="form-control" name="email" id="email" placeholder="Email" />
-            </div>
-          </div>
-          <div class="mb-3">
-            <label for="message" class="form-label"></label>
-            <textarea class="form-control" id="message" name="pesan" rows="10" placeholder="Message"></textarea>
-          </div>
 
-          <div class="btn-grp">
-            <button class="submit btn btn-dark" type="submit">
-              submit
-              <i class="fa-solid fa-paper-plane"></i>
-            </button>
-            <button class="buttonload d-none">
-              <i class="fa-solid fa-spinner"></i>
-            </button>
-          </div>
-        </form>
+    <h2 class="text-center text-light fw-bolder mt-5" style="margin-bottom: 100px">CONTACT US</h2>
+
+    <div class="container mt-5" id="contact">
+      <div class="row g-5">
+        <div class="col-md-8">
+          <form name="submit-to-google-sheet">
+            <h4 class="fw-semibold">Get in touch</h4>
+            <div class="mb-3 row">
+              <div class="col">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" name="nama" id="name" placeholder="Name" />
+              </div>
+              <div class="col">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email" />
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="pesan" rows="10" placeholder="Message"></textarea>
+            </div>
+
+            <div class="btn-grp">
+              <button class="submit btn btn-dark" type="submit">
+                Submit
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+              <button class="buttonload d-none">
+                <i class="fa-solid fa-spinner"></i>
+              </button>
+            </div>
+          </form>
+        </div>
         <div class="col-md-4">
-          <img src="./images/contact.svg" alt="" width="400" />
+          <img src="./images/contact.svg" alt="" class="img-fluid" />
         </div>
       </div>
     </div>
 
     <div class="mt-5">
       <div class="d-flex flex-column justify-content-center align-items-center gap-5">
-        <h2 class="text-center text-light fw-bolder" style="padding-top:40px;">LOCATION</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1983.3779154014107!2d106.64058282357466!3d-6.163445821974849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMDknNDguOSJTIDEwNsKwMzgnMzAuNiJF!5e0!3m2!1sid!2sid!4v1712120592202!5m2!1sid!2sid" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h2 class="text-center text-light fw-bolder" style="padding-top: 40px">LOCATION</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1983.3779154014107!2d106.64058282357466!3d-6.163445821974849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMDknNDguOSJTIDEwNsKwMzgnMzAuNiJF!5e0!3m2!1sid!2sid!4v1712120592202!5m2!1sid!2sid"
+          width="90%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </div>
     <div class="d mt-5">
       <footer class="text-center text-lg-start text-white" style="background-color: #292929">
@@ -367,8 +364,8 @@
                 <h6 class="text-uppercase mb-4 font-weight-bold">Social Media</h6>
 
                 <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="https://www.tiktok.com/@djaya.konveksi?_t=8jI4NAs2mEE&_r=1" target="_blank" role="button"><i class="fab fa-tiktok"></i></a>
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="https://www.instagram.com/roeang.studio/" target="_blank" role="button"><i class="fab fa-instagram"></i></a>
               </div>
             </div>
           </section>
